@@ -34,3 +34,5 @@ apachectl restart
 if you can need to inspect this container, you must use ```docker inspect food``` ;)
 
 ### implementation with PHP
+
+First, the date of the user's visit to this section is checked, then the menu for the food will be shown to the user on the same day and two days later. At each meal, we have two types of food, and the user can choose both types. The selected food can also be canceled by the user.
